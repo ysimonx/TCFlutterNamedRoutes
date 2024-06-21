@@ -8,14 +8,7 @@ late TC tc;
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
-  /*
-    ==> note for CommandersAct
-    init TC !
-  */
-  tc = TC(
-      siteId: 7244,
-      privacyId: 6,
-      sourceKey: "bed1ecf4-ca9e-4f63-9a4c-62cd303e3634");
+  tc = TC(siteId: xxxx, privacyId: 6, sourceKey: "xxxxxxxxxxxxxxxxxxx");
 
   runApp(MaterialApp(
     title: 'Navigation Basics',
