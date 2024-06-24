@@ -15,6 +15,7 @@ void main() {
       sourceKey: "bed1ecf4-ca9e-4f63-9a4c-62cd303e3634");
 
   TCDebug().setDebugLevel(TCLogLevel.TCLogLevel_Verbose);
+  TCDebug().setNotificationLog(true);
 
   runApp(MaterialApp(
     title: 'Navigation Basics',
