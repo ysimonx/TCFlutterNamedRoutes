@@ -2,13 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:navigation_history_observer/navigation_history_observer.dart';
 
 import 'tc.dart';
+import 'package:tccore_plugin/TCDebug.dart';
 
 late TC tc;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
-  tc = TC(siteId: xxxx, privacyId: 6, sourceKey: "xxxxxxxxxxxxxxxxxxx");
+  tc = TC(
+      siteId: 7244,
+      privacyId: 6,
+      sourceKey: "bed1ecf4-ca9e-4f63-9a4c-62cd303e3634");
+
+  TCDebug().setDebugLevel(TCLogLevel.TCLogLevel_Verbose);
 
   runApp(MaterialApp(
     title: 'Navigation Basics',

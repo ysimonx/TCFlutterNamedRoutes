@@ -1,0 +1,40 @@
+PODS:
+  - Flutter (1.0.0)
+  - IOSV5-TCCore (5.3.4)
+  - tc_serverside_plugin (1.1.0):
+    - Flutter
+    - IOSV5-TCCore (= 5.3.4)
+    - TCServerSide (= 5.4.3)
+  - tccore_plugin (1.1.0):
+    - Flutter
+    - IOSV5-TCCore (= 5.3.4)
+  - TCServerSide (5.4.3)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - tc_serverside_plugin (from `.symlinks/plugins/tc_serverside_plugin/ios`)
+  - tccore_plugin (from `.symlinks/plugins/tccore_plugin/ios`)
+
+SPEC REPOS:
+  trunk:
+    - IOSV5-TCCore
+    - TCServerSide
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  tc_serverside_plugin:
+    :path: ".symlinks/plugins/tc_serverside_plugin/ios"
+  tccore_plugin:
+    :path: ".symlinks/plugins/tccore_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  IOSV5-TCCore: 012570fda14093f38fd9007d932d9829f7e4bdab
+  tc_serverside_plugin: 2c0b76fba6dfcfb1549f22f207f4f69a6bc3a187
+  tccore_plugin: ec66db2c0b0024086d39cfeb736f1af423598f22
+  TCServerSide: 5dcd2891f5efe1fc249f2d5d6480c28104d0f657
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.15.2
